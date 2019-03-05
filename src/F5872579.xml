@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Body>
+		<ns2:processOrderUpdate xmlns:ns2="http://partner.fsi.ist.apple.com/">
+			<order>
+				<billToNumber>1031182</billToNumber>
+				<billingAddress>
+					<addressLine1>430 S Fuller Ave</addressLine1>
+					<addressLine2>CA</addressLine2>
+					<city>Los Angeles</city>
+					<country>USA</country>
+					<firstName>Nupul</firstName>
+					<lastName>Kukreja</lastName>
+					<phoneNumber>3236979289</phoneNumber>
+					<postalCode>90036</postalCode>
+				</billingAddress>
+				<currencyCode>USD</currencyCode>
+				<documentCategory>C</documentCategory>
+				<items>
+					<billingDocAmount>749.00</billingDocAmount>
+					<billingDocCreatedDate>2016/02/13</billingDocCreatedDate>
+					<billingDocCreatedTime>174026</billingDocCreatedTime>
+					<billingDocNumber>1801004856</billingDocNumber>
+					<deliveredDocQuantity>1</deliveredDocQuantity>
+					<itemNumber>10</itemNumber>
+					<material>MKQD2LL/A</material>
+					<materialDescription>IPHONE 6S ROSE GOLD 64GB AT&amp;T-USA
+					</materialDescription>
+					<netValue>749.0</netValue>
+					<partNumber>10</partNumber>
+					<price>749.00</price>
+					<quantity>1</quantity>
+					<shipToCustomer>
+						<city>Los Angeles</city>
+						<country>USA</country>
+						<name1>Nupul Kukreja</name1>
+						<phone>3236979289</phone>
+						<region>CA</region>
+						<street>430 S Fuller Ave</street>
+						<zipCode>90036</zipCode>
+					</shipToCustomer>
+					<tax>0.0</tax>
+				</items>
+				<items>
+					<billingDocAmount>129.00</billingDocAmount>
+					<billingDocCreatedDate>2016/02/13</billingDocCreatedDate>
+					<billingDocCreatedTime>174026</billingDocCreatedTime>
+					<billingDocNumber>1801004856</billingDocNumber>
+					<deliveredDocQuantity>1</deliveredDocQuantity>
+					<itemNumber>20</itemNumber>
+					<material>S5115LL/A</material>
+					<materialDescription>AC+ for iPhone Upgrade Program
+					</materialDescription>
+					<netValue>129.0</netValue>
+					<partNumber>20</partNumber>
+					<price>129.00</price>
+					<quantity>1</quantity>
+					<shipToCustomer>
+						<city>Los Angeles</city>
+						<country>USA</country>
+						<name1>Nupul Kukreja</name1>
+						<phone>3236979289</phone>
+						<region>CA</region>
+						<street>430 S Fuller Ave</street>
+						<zipCode>90036</zipCode>
+					</shipToCustomer>
+					<tax>0.0</tax>
+				</items>
+				<items>
+					<billingDocAmount>67.41</billingDocAmount>
+					<billingDocCreatedDate>2016/02/13</billingDocCreatedDate>
+					<billingDocCreatedTime>174026</billingDocCreatedTime>
+					<billingDocNumber>1801004856</billingDocNumber>
+					<deliveredDocQuantity>1</deliveredDocQuantity>
+					<itemNumber>30</itemNumber>
+					<material>SalesTax</material>
+					<materialDescription>SalesTax</materialDescription>
+					<netValue>0.0</netValue>
+					<partNumber>30</partNumber>
+					<price>67.41</price>
+					<quantity>1</quantity>
+					<shipToCustomer>
+						<street />
+					</shipToCustomer>
+					<tax>67.41</tax>
+				</items>
+				<loanAmount>945.41</loanAmount>
+				<loanApplicationId>2016021302540261</loanApplicationId>
+				<loanNumber>6058300201530781</loanNumber>
+				<orderCompleteStatus>X</orderCompleteStatus>
+				<orderTotal>945.41</orderTotal>
+				<payerId>1031182</payerId>
+				<salesDocCreatedDate>2016/02/14</salesDocCreatedDate>
+				<salesDocCreatedTime>033751</salesDocCreatedTime>
+				<salesDocumentId>20160213R0506118915</salesDocumentId>
+				<tax>67.41</tax>
+				<updateCounter>3</updateCounter>
+				<webOrderNumber>20160213R0506118915</webOrderNumber>
+			</order>
+		</ns2:processOrderUpdate>
+	</soap:Body>
+</soap:Envelope>

@@ -1,0 +1,76 @@
+
+[Request Payload :
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:fsi="http://fsi.ist.apple.com/" xmlns:xsi="xsi">
+	<soapenv:Header />
+	<soapenv:Body>
+		<fsi:processInstallmentOrder>
+			<fsi:storeAuthorizationRequest>
+				<fsi:creditCheckConsent>true</fsi:creditCheckConsent>
+				<fsi:customerFirstName>SUDEEP</fsi:customerFirstName>
+				<fsi:customerLastName>GANGULA</fsi:customerLastName>
+				<fsi:entryMethod>MANUAL</fsi:entryMethod>
+				<fsi:initialPayment>100.98</fsi:initialPayment>
+				<fsi:installmentAmount>10.25</fsi:installmentAmount>
+				<fsi:interestRate>0.00</fsi:interestRate>
+				<fsi:loanApplicationId>LID20160412001</fsi:loanApplicationId>
+				<fsi:orderData>
+					<fsi:billToCustomer>
+						<fsi:addressLine1>6622 Ihklnpta Ln</fsi:addressLine1>
+						<fsi:cellPhone>1234567890</fsi:cellPhone>
+						<fsi:city>Bangalore</fsi:city>
+						<fsi:country>INDIA</fsi:country>
+						<fsi:email>bdwarakanth@apple.com</fsi:email>
+						<fsi:firstName>sudeep</fsi:firstName>
+						<fsi:lastName>gangula</fsi:lastName>
+						<fsi:state>GA</fsi:state>
+						<fsi:zipCode>30291</fsi:zipCode>
+					</fsi:billToCustomer>
+					<fsi:currency>USD</fsi:currency>
+					<fsi:orderChannel>POS</fsi:orderChannel>
+					<fsi:orderDate>2015-10-09T20:41:36</fsi:orderDate>
+					<fsi:orderItemList>
+						<fsi:displayName>IPHONE 6 SILVER 128GB AT&amp;T-USA
+						</fsi:displayName>
+						<fsi:partNumber>MG4U2LL/A</fsi:partNumber>
+						<fsi:quantity>1</fsi:quantity>
+						<fsi:unitPrice>849.00</fsi:unitPrice>
+						<fsi:itemTax>60.122</fsi:itemTax>
+					</fsi:orderItemList>
+					<fsi:orderItemList>
+						<fsi:displayName>APP IPHONE-RAE-USA</fsi:displayName>
+						<fsi:partNumber>S3320LL/A</fsi:partNumber>
+						<fsi:quantity>1</fsi:quantity>
+						<fsi:unitPrice>50.00</fsi:unitPrice>
+						<fsi:itemTax>40.1230000</fsi:itemTax>
+					</fsi:orderItemList>
+					<fsi:orderNumber>WON20160412001</fsi:orderNumber>
+					<fsi:orderTax>60.73</fsi:orderTax>
+					<fsi:orderTotal>1000.73</fsi:orderTotal>
+				</fsi:orderData>
+				<fsi:payerId>1017380</fsi:payerId>
+				<fsi:recurringBillingAuthorization>true
+				</fsi:recurringBillingAuthorization>
+				<fsi:requestDate>2015-10-09T20:41:36</fsi:requestDate>
+				<fsi:requestId>REQ20160412001</fsi:requestId>
+				<fsi:storeId>R144</fsi:storeId>
+				<fsi:storeZipCode>75225</fsi:storeZipCode>
+				<fsi:termsConsent>true</fsi:termsConsent>
+				<fsi:termsConsentDate>2015-10-09T20:41:28</fsi:termsConsentDate>
+				<fsi:totalAmountFinanced>1000.73</fsi:totalAmountFinanced>
+				<fsi:totalInstallments>24</fsi:totalInstallments>
+				<fsi:storeTransactionType>SALE</fsi:storeTransactionType>
+			</fsi:storeAuthorizationRequest>
+			<fsi:storeAuthorizationResponse>
+				<fsi:authorizationStatus>APPROVED</fsi:authorizationStatus>
+				<fsi:loanApplicationId>LID20160412001</fsi:loanApplicationId>
+				<fsi:loanNumber>LN20160412001</fsi:loanNumber>
+				<fsi:orderNumber>WON20160412001</fsi:orderNumber>
+				<fsi:requestId>REQ20160412001</fsi:requestId>
+				<fsi:responseDate>2015-10-09T21:41:41.000Z</fsi:responseDate>
+				<fsi:responseId>RES20160412001</fsi:responseId>
+				<fsi:retryAllowed>false</fsi:retryAllowed>
+			</fsi:storeAuthorizationResponse>
+		</fsi:processInstallmentOrder>
+	</soapenv:Body>
+</soapenv:Envelope>

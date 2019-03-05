@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<asx:abap version="1.0" xmlns:asx="http://www.sap.com/abapxml">
+	<asx:values>
+		<WEBORDER>
+			<ZFSI_WEB_ORDER>
+				<HEADER>
+					<APPLICATIONID>608360836083</APPLICATIONID>
+					<PAYERID>1017380</PAYERID>
+					<WEBORDERNUMBER>W6083</WEBORDERNUMBER>
+					<DOCUMENTCATEGORY>C</DOCUMENTCATEGORY>
+					<SALESDOC>
+						<SALESDOCNUM>W6083</SALESDOCNUM>
+						<SALESDOCCREATEDATE />
+						<SALESDOCCREATETIME />
+					</SALESDOC>
+					<ORDERAMOUNT>117233</ORDERAMOUNT>
+					<TAX>9433</TAX>
+					<LOANAMOUNT>117233</LOANAMOUNT>
+					<CURRENCYCODE>USD</CURRENCYCODE>
+					<BILLTO>
+						<NUMBER>4567</NUMBER>
+						<CUSTOMER>
+							<NAME1>TestCustomerFname</NAME1>
+							<NAME2 />
+							<NAME3 />
+							<NAME4 />
+							<ADDRESS>
+								<STREET>Boulevard Street</STREET>
+								<DISTRICT>Alabama</DISTRICT>
+								<CITY>Santa Clara</CITY>
+								<REGION>California</REGION>
+								<COUNTRY>USA</COUNTRY>
+								<ZIPCODE>95050</ZIPCODE>
+							</ADDRESS>
+							<PHONE>0000000000</PHONE>
+						</CUSTOMER>
+					</BILLTO>
+					<REFERENCEDOC>
+						<CATEGORY />
+						<NUMBER />
+						<ITEM />
+					</REFERENCEDOC>
+					<ORDERCOMPLETESTATUS>X</ORDERCOMPLETESTATUS>
+					<QUOTEVALIDTODATE />
+					<EMAILID>testCustomerEmailAdrress@gmail.com</EMAILID>
+					<ORDERREASON />
+					<REVIEWSTATUS />
+				</HEADER>
+				<ITEMS>
+					<ZFSI_ITEM_WA>
+						<ITEMNUMBER>10</ITEMNUMBER>
+						<MATERIAL>MKRR2LL/A</MATERIAL>
+						<MATERIALDESCRIPTION />
+						<NETVALUE>94900</NETVALUE>
+						<TAX>8304</TAX>
+						<QUANTITY>1</QUANTITY>
+						<REJECTIONREASON />
+						<REJECTIONDESCRIPTION />
+						<LOWERCOMMITDATE />
+						<UPPERCOMMITDATE />
+						<SHIPTO>
+							<NUMBER>1</NUMBER>
+							<CUSTOMER>
+								<NAME1 />
+								<NAME2 />
+								<NAME3 />
+								<NAME4 />
+								<ADDRESS>
+									<STREET />
+									<DISTRICT />
+									<CITY />
+									<REGION />
+									<COUNTRY />
+									<ZIPCODE />
+								</ADDRESS>
+								<PHONE />
+							</CUSTOMER>
+						</SHIPTO>
+						<SHIPBILLDETAILS>
+							<ZFSI_SHIP_BILLDETAILS>
+								<DELIVERYDOC>
+									<NUMBER />
+									<CREATEDATE />
+									<CREATETIME />
+									<QUANTITY>1</QUANTITY>
+									<SHIP_TRACK_TAB>
+										<ZFSI_SHIP_TRACK>
+											<SERIALNUMBER>A78456245</SERIALNUMBER>
+											<COUNTERDS>0000</COUNTERDS>
+											<TRACKINGNUMBER>8700729540</TRACKINGNUMBER>
+											<CARRIER />
+											<CARRIERNAME />
+										</ZFSI_SHIP_TRACK>
+									</SHIP_TRACK_TAB>
+								</DELIVERYDOC>
+								<BILLINGDOC>
+									<NUMBER>2342341</NUMBER>
+									<CREATEDATE>2016/01/28</CREATEDATE>
+									<CREATETIME />
+									<BILLINGAMOUNT>94900</BILLINGAMOUNT>
+								</BILLINGDOC>
+							</ZFSI_SHIP_BILLDETAILS>
+						</SHIPBILLDETAILS>
+					</ZFSI_ITEM_WA>
+					<ZFSI_ITEM_WA>
+						<ITEMNUMBER>10</ITEMNUMBER>
+						<MATERIAL>345</MATERIAL>
+						<MATERIALDESCRIPTION />
+						<NETVALUE>12900</NETVALUE>
+						<TAX>1129</TAX>
+						<QUANTITY>1</QUANTITY>
+						<REJECTIONREASON />
+						<REJECTIONDESCRIPTION />
+						<LOWERCOMMITDATE />
+						<UPPERCOMMITDATE />
+						<SHIPTO>
+							<NUMBER>1</NUMBER>
+							<CUSTOMER>
+								<NAME1 />
+								<NAME2 />
+								<NAME3 />
+								<NAME4 />
+								<ADDRESS>
+									<STREET />
+									<DISTRICT />
+									<CITY />
+									<REGION />
+									<COUNTRY />
+									<ZIPCODE />
+								</ADDRESS>
+								<PHONE />
+							</CUSTOMER>
+						</SHIPTO>
+						<SHIPBILLDETAILS>
+							<ZFSI_SHIP_BILLDETAILS>
+								<DELIVERYDOC>
+									<NUMBER />
+									<CREATEDATE />
+									<CREATETIME />
+									<QUANTITY>1</QUANTITY>
+									<SHIP_TRACK_TAB>
+										<ZFSI_SHIP_TRACK>
+											<SERIALNUMBER></SERIALNUMBER>
+											<COUNTERDS>0000</COUNTERDS>
+											<TRACKINGNUMBER>8700729540</TRACKINGNUMBER>
+											<CARRIER />
+											<CARRIERNAME />
+										</ZFSI_SHIP_TRACK>
+									</SHIP_TRACK_TAB>
+								</DELIVERYDOC>
+								<BILLINGDOC>
+									<NUMBER>2342341</NUMBER>
+									<CREATEDATE>2016/01/28</CREATEDATE>
+									<CREATETIME />
+									<BILLINGAMOUNT>12900</BILLINGAMOUNT>
+								</BILLINGDOC>
+							</ZFSI_SHIP_BILLDETAILS>
+						</SHIPBILLDETAILS>
+					</ZFSI_ITEM_WA>
+					<ZFSI_ITEM_WA>
+						<ITEMNUMBER>10</ITEMNUMBER>
+						<MATERIAL>SHIP-AOS</MATERIAL>
+						<MATERIALDESCRIPTION />
+						<NETVALUE>10000</NETVALUE>
+						<TAX>100</TAX>
+						<QUANTITY>1</QUANTITY>
+						<REJECTIONREASON />
+						<REJECTIONDESCRIPTION />
+						<LOWERCOMMITDATE />
+						<UPPERCOMMITDATE />
+						<SHIPTO>
+							<NUMBER>1</NUMBER>
+							<CUSTOMER>
+								<NAME1 />
+								<NAME2 />
+								<NAME3 />
+								<NAME4 />
+								<ADDRESS>
+									<STREET />
+									<DISTRICT />
+									<CITY />
+									<REGION />
+									<COUNTRY />
+									<ZIPCODE />
+								</ADDRESS>
+								<PHONE />
+							</CUSTOMER>
+						</SHIPTO>
+						<SHIPBILLDETAILS>
+							<ZFSI_SHIP_BILLDETAILS>
+								<DELIVERYDOC>
+									<NUMBER />
+									<CREATEDATE />
+									<CREATETIME />
+									<QUANTITY>1</QUANTITY>
+									<SHIP_TRACK_TAB>
+										<ZFSI_SHIP_TRACK>
+											<SERIALNUMBER></SERIALNUMBER>
+											<COUNTERDS>0000</COUNTERDS>
+											<TRACKINGNUMBER>8700729540</TRACKINGNUMBER>
+											<CARRIER />
+											<CARRIERNAME />
+										</ZFSI_SHIP_TRACK>
+									</SHIP_TRACK_TAB>
+								</DELIVERYDOC>
+								<BILLINGDOC>
+									<NUMBER></NUMBER>
+									<CREATEDATE>2016/01/28</CREATEDATE>
+									<CREATETIME />
+									<BILLINGAMOUNT>10000</BILLINGAMOUNT>
+								</BILLINGDOC>
+							</ZFSI_SHIP_BILLDETAILS>
+						</SHIPBILLDETAILS>
+					</ZFSI_ITEM_WA>
+				</ITEMS>
+			</ZFSI_WEB_ORDER>
+		</WEBORDER>
+	</asx:values>
+</asx:abap>

@@ -1,0 +1,17 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:fsi="http://fsi.ist.apple.com/">
+	<SOAP-ENV:Header />
+	<SOAP-ENV:Body>
+		<fsi:checkUpgradeEligibility>
+			<fsi:checkUpgradeEligibilityRequestData>
+				<fsi:countryCode>USA</fsi:countryCode>
+				<fsi:imei>2582</fsi:imei>
+				<fsi:loanDetailsRequired>true</fsi:loanDetailsRequired>
+				<fsi:orderChannel>POS</fsi:orderChannel>
+				<fsi:requestId>1483734464957</fsi:requestId>
+				<fsi:serialNumber>AS1483733893255</fsi:serialNumber>
+				<fsi:upgradeInProcess>false</fsi:upgradeInProcess>
+			</fsi:checkUpgradeEligibilityRequestData>
+		</fsi:checkUpgradeEligibility>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

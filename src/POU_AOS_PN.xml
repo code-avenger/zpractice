@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Body>
+		<ns2:processOrderUpdate xmlns:ns2="http://partner.fsi.ist.apple.com/">
+			<order>
+				<billToNumber>1017380</billToNumber>
+				<billingAddress>
+					<addressLine1>6622 Ihklnpta Ln</addressLine1>
+					<addressLine2>GA</addressLine2>
+					<city>Bangalore</city>
+					<country>INDIA</country>
+					<emailId>bdwarakanth@apple.com</emailId>
+					<firstName>sudeep</firstName>
+					<lastName>gangula</lastName>
+					<phoneNumber>1234567890</phoneNumber>
+					<postalCode>30291</postalCode>
+				</billingAddress>
+				<currencyCode>USD</currencyCode>
+				<documentCategory>C</documentCategory>
+				<items>
+					<deliveredDocQuantity>1</deliveredDocQuantity>
+					<itemNumber>20</itemNumber>
+					<material>S3320LL/A</material>
+					<materialDescription>APP IPHONE-RAE-USA</materialDescription>
+					<netValue>50.0</netValue>
+					<partNumber>20</partNumber>
+					<price>50.0</price>
+					<quantity>1</quantity>
+					<shipToCustomer>
+						<city>Bangalore</city>
+						<country>INDIA</country>
+						<name1>sudeep gangula</name1>
+						<phone>1234567890</phone>
+						<region>GA</region>
+						<street>6622 Ihklnpta Ln</street>
+						<zipCode>30291</zipCode>
+					</shipToCustomer>
+					<tax>40.12</tax>
+				</items>
+				<items>
+					<deliveredDocQuantity>1</deliveredDocQuantity>
+					<itemNumber>10</itemNumber>
+					<material>MG4U2LL/A</material>
+					<materialDescription>IPHONE 6 SILVER 128GB AT&amp;T-USA
+					</materialDescription>
+					<netValue>849.0</netValue>
+					<partNumber>10</partNumber>
+					<price>849.0</price>
+					<quantity>1</quantity>
+					<shipToCustomer>
+						<city>Bangalore</city>
+						<country>INDIA</country>
+						<name1>sudeep gangula</name1>
+						<phone>1234567890</phone>
+						<region>GA</region>
+						<street>6622 Ihklnpta Ln</street>
+						<zipCode>30291</zipCode>
+					</shipToCustomer>
+					<tax>60.12</tax>
+				</items>
+				<loanAmount>1000.73</loanAmount>
+				<loanApplicationId>LID20160929_001</loanApplicationId>
+				<loanNumber>LN20160929_001</loanNumber>
+				<orderTotal>1000.73</orderTotal>
+				<payerId>1017380</payerId>
+				<salesDocCreatedDate>2015/10/09</salesDocCreatedDate>
+				<salesDocCreatedTime>204136</salesDocCreatedTime>
+				<salesDocumentId>WON20160929_001</salesDocumentId>
+				<tax>60.73</tax>
+				<updateCounter>2</updateCounter>
+				<webOrderNumber>WON20160929_001</webOrderNumber>
+			</order>
+		</ns2:processOrderUpdate>
+	</soap:Body>
+</soap:Envelope>
