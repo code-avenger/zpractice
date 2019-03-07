@@ -71,6 +71,7 @@ public class ImmutableClassExample {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		long start = System.currentTimeMillis();
 		HashMap<String, String> h1 = new HashMap<String,String>();
 		h1.put("1", "first");
 		h1.put("2", "second");
@@ -101,6 +102,9 @@ public class ImmutableClassExample {
 		hmTest.put("4", "new");
 
 		System.out.println("ce testMap after changing variable from accessor methods:"+ce.getTestMap());
-
+		long end = System.currentTimeMillis();
+		
+		long result = end-start;
+		System.out.println("time taken: "+result);
 	}
 }
