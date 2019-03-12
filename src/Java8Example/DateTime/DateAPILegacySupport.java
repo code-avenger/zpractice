@@ -21,24 +21,24 @@ public class DateAPILegacySupport {
 
 		// Calendar to Instant
 		Instant time = Calendar.getInstance().toInstant();
-		System.out.println(time);
+		System.out.println("time = "+time);
 		// TimeZone to ZoneId
 		ZoneId defaultZone = TimeZone.getDefault().toZoneId();
-		System.out.println(defaultZone);
+		System.out.println("defaultZone = "+defaultZone);
 
 		// ZonedDateTime from specific Calendar
 		ZonedDateTime gregorianCalendarDateTime = new GregorianCalendar().toZonedDateTime();
-		System.out.println(gregorianCalendarDateTime);
+		System.out.println("gregorian = "+gregorianCalendarDateTime);
 
 		// Date API to Legacy classes
 		Date dt = Date.from(Instant.now());
-		System.out.println(dt);
+		System.out.println("dt = "+dt);
 
 		TimeZone tz = TimeZone.getTimeZone(defaultZone);
-		System.out.println(tz);
+		System.out.println("tz = "+tz);
 
 		GregorianCalendar gc = GregorianCalendar.from(gregorianCalendarDateTime);
-		System.out.println(gc);
+		System.out.println("gc = "+gc);
 
 	}
 
