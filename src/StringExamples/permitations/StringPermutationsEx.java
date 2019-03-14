@@ -1,4 +1,4 @@
-package StringExamples;
+package StringExamples.permitations;
 
 import java.util.ArrayList;
 import java.util.List;
