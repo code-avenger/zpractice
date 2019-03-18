@@ -19,6 +19,10 @@ public class DateAPILegacySupport {
 		LocalDateTime date = LocalDateTime.ofInstant(timestamp, ZoneId.of(ZoneId.SHORT_IDS.get("PST")));
 		System.out.println("Date = " + date);
 
+		// Current date in "Asia/Kolkata", you can get it from ZoneId javadoc
+		LocalDateTime todayKolkata = LocalDateTime.now(ZoneId.of("Asia/Kolkata"));
+		System.out.println("Current Date in IST=" + todayKolkata);
+
 		// Calendar to Instant
 		Instant time = Calendar.getInstance().toInstant();
 		System.out.println("time = "+time);
