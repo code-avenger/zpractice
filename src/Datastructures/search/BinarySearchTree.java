@@ -7,6 +7,13 @@ package Datastructures.search;
  *
  * @since 17-Jan-2017
  * @LastModified By Sudeep Gangula
+ * Insert(int n) : Add a node the tree with value n. Its O(lgn)
+
+Find(int n) : Find a node the tree with value n. Its O(lgn)
+
+Delete (int n) : Delete a node the tree with value n. Its O(lgn)
+
+Display(): Prints the entire tree in increasing order. O(n).
  */
 public class BinarySearchTree {
 
