@@ -21,7 +21,9 @@ public class DateAPILegacySupport {
 
 		// Current date in "Asia/Kolkata", you can get it from ZoneId javadoc
 		LocalDateTime todayKolkata = LocalDateTime.now(ZoneId.of("Asia/Kolkata"));
+		LocalDateTime nowParis = LocalDateTime.now(ZoneId.of("Europe/Paris"));
 		System.out.println("Current Date in IST=" + todayKolkata);
+		System.out.println("Current TIME in Paris=" + nowParis);
 
 		// Calendar to Instant
 		Instant time = Calendar.getInstance().toInstant();
