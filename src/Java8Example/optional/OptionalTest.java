@@ -14,8 +14,8 @@ public class OptionalTest {
 		BigInteger resultE = fiveEp.map(a -> a).orElseGet(()-> new BigInteger("0"));
 		BigInteger resultO = fiveOp.map(a -> a).orElseGet(()-> new BigInteger("0"));
 
-		System.out.println(resultE);
-		System.out.println(resultO);
+		System.out.println("resultE: "+resultE);
+		System.out.println("resultO:"+resultO);
 
 		//only if
 		fiveOp.ifPresent(a -> System.out.println(a));

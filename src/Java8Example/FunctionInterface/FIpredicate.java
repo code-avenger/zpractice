@@ -11,7 +11,7 @@ public class FIpredicate {
 
 		// create a list of strings 
 		List<String> names = 
-				Arrays.asList("Geek","GeeksQuiz","g1","QA","Geek2"); 
+				Arrays.asList("Geek","GeeksQuiz","g1","QA","qeek2"); 
 
 		// declare the predicate type as string and use 
 		// lambda expression to create object 
