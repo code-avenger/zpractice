@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * ShellSort
  * 
- * @Complexity: Ο(n)
+ * @Complexity: O(n)
  * 
  * @author sudeep.gangula
  * 

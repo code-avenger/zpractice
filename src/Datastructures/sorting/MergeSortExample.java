@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * MergeSort
  * 
- * @Complexity: Ο(n log n)
+ * @Complexity: O(n log n)
  * 
  * @author sudeep.gangula
  * 
