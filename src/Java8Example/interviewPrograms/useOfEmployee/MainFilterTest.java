@@ -1,4 +1,4 @@
-package Java8Example.interviewPrograms;
+package Java8Example.interviewPrograms.useOfEmployee;
 
 import java.util.List;
 import java.util.Optional;

@@ -1,4 +1,4 @@
-package Java8Example.interviewPrograms;
+package Java8Example.interviewPrograms.useOfEmployee;
 
 import java.util.Comparator;
 import java.util.List;

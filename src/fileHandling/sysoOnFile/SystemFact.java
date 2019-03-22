@@ -1,4 +1,4 @@
-package file.SysoOnFile;
+package fileHandling.sysoOnFile;
 
 import java.io.File;
 import java.io.FileNotFoundException;
