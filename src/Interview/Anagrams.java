@@ -1,6 +1,7 @@
 package Interview;
 
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Anagrams  {
@@ -19,8 +20,19 @@ public class Anagrams  {
 		{
 
 			char[] s1ToArray = copyOfs1.toCharArray();
+			char[] s2ToArray = copyOfs2.toCharArray();
+			
+			Arrays.sort(s1ToArray);
+			Arrays.sort(s2ToArray);
+			
+			for(int i=0;i<s1ToArray.length;i++) {
+				if(s1ToArray[i]!=s2ToArray[i]) {
+					status= false;
+					break;
+				}
+			}
 
-			for (char c : s1ToArray)
+			/*for (char c : s1ToArray)
 			{
 				int index = copyOfs2.indexOf(c);
 				if(index != -1)
@@ -33,7 +45,7 @@ public class Anagrams  {
 					status = false;
 					break;
 				}
-			}
+			}*/
 		}
 
 		return status;
