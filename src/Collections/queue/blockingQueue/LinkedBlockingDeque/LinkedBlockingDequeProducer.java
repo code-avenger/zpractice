@@ -1,4 +1,4 @@
-package Collections.queue.blockingDeque.LinkedBlockingDeque;
+package Collections.queue.blockingQueue.LinkedBlockingDeque;
 
 import java.util.Random;
 import java.util.UUID;
