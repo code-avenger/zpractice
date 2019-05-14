@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class EquilibriumPoint {
 
 	// Equilibrium position in an array is a position such that the sum of
-	// elements below it is equal to the sum of elements after it.
+	// elements before it is equal to the sum of elements after it.
 
 	public static void main (String[] args) {
 		Scanner br=new Scanner(System.in);
@@ -47,6 +47,7 @@ public class EquilibriumPoint {
 
 				if (total1 == total2) {
 					System.out.println(i + 1);
+					flag=true;
 				}
 
 			}

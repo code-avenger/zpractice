@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * Bubblesort
  * 
- * @Complexity: Ο(n2)
+ * @Complexity: O(n2)
  * @author sudeep.gangula
  * 
  *         https://www.tutorialspoint.com/data_structures_algorithms/bubble_sort_algorithm.htm

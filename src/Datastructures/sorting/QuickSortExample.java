@@ -3,7 +3,7 @@ package Datastructures.sorting;
 import java.util.Arrays;
 
 /**
- * QuickSort Complexity: Ο(nlogn)
+ * QuickSort Complexity: O(nlogn)
  * 
  * @author sudeep.gangula
  *

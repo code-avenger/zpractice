@@ -24,21 +24,21 @@ public class SubArraySum {
 			boolean flag = false;
 
 			outer:
- for (int i = 0; i <= elements.length; i++) {
+				for (int i = 0; i <= elements.length; i++) {
 
-				for (int j = i + 1; j <= elements.length; j++) {
+					for (int j = i + 1; j <= elements.length; j++) {
 
-					int[] subArr = Arrays.copyOfRange(elements, i, j);
+						int[] subArr = Arrays.copyOfRange(elements, i, j);
+						System.out.println("subArr: "+ Arrays.toString(subArr));
+						total = getTotal(subArr);
+						int temp = 0;
+						if (total == sum) {
+							System.out.println("i: " + i + " , j: " + j);
+							System.out.println(Arrays.toString(subArr));
 
-					total = getTotal(subArr);
-					int temp = 0;
-					if (total == sum) {
-						System.out.println("i: " + i + " , j: " + j);
-						System.out.println(Arrays.toString(subArr));
-
-						System.out.println(i + 1 + " " + j);
-						flag = true;
-						break outer;
+							System.out.println(i + 1 + " " + j);
+							flag = true;
+							break outer;
 						}
 
 					}

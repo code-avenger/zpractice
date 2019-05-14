@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * SelectionSort
  * 
- * @Complexity: Ο(n2)
+ * @Complexity: O(n2)
  * 
  * @author sudeep.gangula
  * 

@@ -2,6 +2,7 @@ package Collections;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.TreeMap;
 
 public class TreeMapExample {
 	public static void main(String[] args) {
@@ -16,7 +17,7 @@ public class TreeMapExample {
 		// System.out.println(treeMap);
 
 		// for (Entry<Integer, String> k : treeMap.entrySet()) {
-			// System.out.println(k.getValue());
+		// System.out.println(k.getValue());
 		// }
 
 		Map<Integer, String> hashMap = new HashMap<>();
@@ -26,7 +27,7 @@ public class TreeMapExample {
 		hashMap.put(4, "four");
 
 		System.out.println("hashMap " + hashMap);
-		// TreeMap<Integer, String> treeMap1 = new TreeMap<>(hashMap);
-		// System.out.println("treeMap1 " + treeMap1);
+		TreeMap<Integer, String> treeMap1 = new TreeMap<>(hashMap);
+		System.out.println("treeMap1 " + treeMap1);
 	}
 }

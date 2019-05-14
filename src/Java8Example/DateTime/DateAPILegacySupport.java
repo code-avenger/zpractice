@@ -19,26 +19,32 @@ public class DateAPILegacySupport {
 		LocalDateTime date = LocalDateTime.ofInstant(timestamp, ZoneId.of(ZoneId.SHORT_IDS.get("PST")));
 		System.out.println("Date = " + date);
 
+		// Current date in "Asia/Kolkata", you can get it from ZoneId javadoc
+		LocalDateTime todayKolkata = LocalDateTime.now(ZoneId.of("Asia/Kolkata"));
+		LocalDateTime nowParis = LocalDateTime.now(ZoneId.of("Europe/Paris"));
+		System.out.println("Current Date in IST=" + todayKolkata);
+		System.out.println("Current TIME in Paris=" + nowParis);
+
 		// Calendar to Instant
 		Instant time = Calendar.getInstance().toInstant();
-		System.out.println(time);
+		System.out.println("time = "+time);
 		// TimeZone to ZoneId
 		ZoneId defaultZone = TimeZone.getDefault().toZoneId();
-		System.out.println(defaultZone);
+		System.out.println("defaultZone = "+defaultZone);
 
 		// ZonedDateTime from specific Calendar
 		ZonedDateTime gregorianCalendarDateTime = new GregorianCalendar().toZonedDateTime();
-		System.out.println(gregorianCalendarDateTime);
+		System.out.println("gregorian = "+gregorianCalendarDateTime);
 
 		// Date API to Legacy classes
 		Date dt = Date.from(Instant.now());
-		System.out.println(dt);
+		System.out.println("dt = "+dt);
 
 		TimeZone tz = TimeZone.getTimeZone(defaultZone);
-		System.out.println(tz);
+		System.out.println("tz = "+tz);
 
 		GregorianCalendar gc = GregorianCalendar.from(gregorianCalendarDateTime);
-		System.out.println(gc);
+		System.out.println("gc = "+gc);
 
 	}
 
