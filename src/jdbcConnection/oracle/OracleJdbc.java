@@ -1,4 +1,5 @@
 package jdbcConnection.oracle;
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -19,10 +20,9 @@ public class OracleJdbc {
 
 	public static Connection getConnection() {
 
-
-		String dbURL = "jdbc:oracle:thin:@ma-redsdisd-ldb01.corp.apple.com:1546:redsd1d";
-		String username = "REDSDD_TRIRIGA_USER";
-		String password = "welcometoappleredsdd#123";
+		String dbURL = "jdbc:oracle:thin:@localhost:1521:xe";
+		String username = "system";
+		String password = "oracle";
 
 		try {
 
