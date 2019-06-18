@@ -5,15 +5,17 @@ import java.util.concurrent.LinkedBlockingDeque;
 
 public class LinkedBlockingDequeExample {
 	public static void main(String[] args) {
-		final BlockingDeque<String> priorityBlockingQueue = new LinkedBlockingDeque<String>();
+	final BlockingDeque<String> linkedBlockingQueue = new LinkedBlockingDeque<String>(10);
 
-		LinkedBlockingDequeProducer queueProducer = new LinkedBlockingDequeProducer(priorityBlockingQueue);
+	System.out.println("*********** size: " + linkedBlockingQueue.remainingCapacity());
+
+	LinkedBlockingDequeProducer queueProducer = new LinkedBlockingDequeProducer(linkedBlockingQueue);
 		new Thread(queueProducer).start();
 
-		LinkedBlockingDequeConsumer queueConsumer1 = new LinkedBlockingDequeConsumer(priorityBlockingQueue);
-		new Thread(queueConsumer1).start();
+	LinkedBlockingDequeConsumer queueConsumer1 = new LinkedBlockingDequeConsumer(linkedBlockingQueue);
+	new Thread(queueConsumer1).start();
 
-		LinkedBlockingDequeConsumer queueConsumer2 = new LinkedBlockingDequeConsumer(priorityBlockingQueue);
-		new Thread(queueConsumer2).start();
+	LinkedBlockingDequeConsumer queueConsumer2 = new LinkedBlockingDequeConsumer(linkedBlockingQueue);
+	// new Thread(queueConsumer2).start();
 	}
 }
