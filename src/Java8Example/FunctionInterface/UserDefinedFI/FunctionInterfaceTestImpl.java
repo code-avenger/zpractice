@@ -1,4 +1,4 @@
-package Java8Example.FunctionInterface;
+package Java8Example.FunctionInterface.UserDefinedFI;
 
 // Test class to implement above interface
 public class FunctionInterfaceTestImpl {
