@@ -38,6 +38,8 @@ public class AnyTypeToStringConversion {
 		String datesh= ((null != dt) ? dt : "").toString();
 		System.out.println(datesh);
 		
+	int i = 12;
+	System.out.println(String.valueOf(i));
 		
 	}
 

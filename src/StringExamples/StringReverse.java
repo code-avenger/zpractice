@@ -3,22 +3,24 @@ package StringExamples;
 import java.util.Stack;
 
 public class StringReverse {
+
+    static int counter = 0;
+    
 	public static void main(String[] args) {
 
-		String input = "abcde";
+        String input = "abcdefghijk";
 
-		System.out.println(input.length());
-		System.out.println(input.substring(1, input.length() - 1));
+        // System.out.println(input.length());
+        // System.out.println(input.substring(1, input.length() - 1));
 
 		// System.out.println("usingStringBuffer: " +
 		// reverseUsingStringBuffer(input));
 		// System.out.println("withoutUsingStringBuffer: " +
 		// reverseWithoutUsingStringBuffer(input));
 
-		// System.out.println("reverseUsingRecursive: "+
-		// reverseUsingRecursive(input));
+        System.out.println("reverseUsingRecursive: " + reverseUsingRecursive(input));
 
-		reverseUsingStack(input);
+		//reverseUsingStack(input);
 
 		int inputNo = 12345;
 		// System.out.println("reverseInt: " + reverseInt(inputNo));
@@ -63,7 +65,7 @@ public class StringReverse {
 	}
 
 	public static String reverseUsingRecursive(String input) {
-
+        System.out.println(++counter);
 		String result = "";
 		if(input.length()==1){
 			return input;

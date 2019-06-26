@@ -7,8 +7,6 @@ public class StringSwap {
 		String a = "sudeep";
 		String b = "gangula";
 
-
-
 		a=a+b;
 		b = a.substring(0, a.length() - b.length());
 		a = a.substring(b.length());
