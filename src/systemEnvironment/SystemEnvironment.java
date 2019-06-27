@@ -7,7 +7,7 @@ public class SystemEnvironment {
 		Map<String, String> env = System.getenv();
 		System.out.println(env.toString().replace(",", "\n"));
 		for (String envName : env.keySet()) {
-			//System.out.format("%s=%s%n", envName, env.get(envName));
+            System.out.format("%s=%s%n", envName, env.get(envName));
 		}
 
 	}
