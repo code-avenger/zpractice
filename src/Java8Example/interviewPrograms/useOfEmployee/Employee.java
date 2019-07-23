@@ -102,9 +102,9 @@ public class Employee {
 		List<Employee> empList = new ArrayList<>();
 		empList.add(new Employee(1, "ram", "nath", "male", new BigDecimal(1000.11), "mgmt", 1, 11.11f));
 		empList.add(new Employee(2, "rahim", "basha", "male", new BigDecimal(800.11), "marketing", 1, 22.22f));
-		empList.add(new Employee(3, "katy", "perry", "female", new BigDecimal(850.11), "sales", 1, 33.33f));
+		empList.add(new Employee(3, "ram", "perry", "female", new BigDecimal(850.11), "sales", 1, 33.33f));
 		empList.add(new Employee(4, "harinder", "singh", "male", new BigDecimal(830.11), "prod", 1, 44.44f));
-		empList.add(new Employee(5, "chan", "lui", "male", new BigDecimal(400.11), "sales", 3, 55.55f));
+		empList.add(new Employee(5, "ram", "lui", "male", new BigDecimal(400.11), "sales", 3, 55.55f));
 		empList.add(new Employee(6, "zeno", "bakuku", "male", new BigDecimal(500.11), "prod", 4, 66.66f));
 		empList.add(new Employee(7, "ema", "ponting", "female", new BigDecimal(600.11), "prod", 4, 77.77f));
 		empList.add(new Employee(8, "swaleha", "parvin", "female", new BigDecimal(700.11), "prod", 7, 88.88f));
