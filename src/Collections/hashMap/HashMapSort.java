@@ -2,12 +2,12 @@ package Collections.hashMap;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public class HashMapSort {
 	public static void main(String a[]){
@@ -32,8 +32,12 @@ public class HashMapSort {
 			}
 				} );*/
 
+        set.stream().filter(x -> x.getValue() > 40).collect(Collectors.toList()).forEach(x -> {
+            System.out.println(x);
+        });
+
 		//Sort using java 8
-		Collections.sort(list,(x,y)->x.getValue().compareTo(y.getValue()));
+        Collections.sort(list, (x, y) -> x.getValue().compareTo(y.getValue()));
 
 		for(Map.Entry<String, Integer> entry:list){
 			System.out.println(entry.getKey()+" ==== "+entry.getValue());

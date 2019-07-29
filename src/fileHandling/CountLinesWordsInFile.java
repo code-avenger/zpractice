@@ -9,7 +9,7 @@ import java.io.InputStreamReader;
 public class CountLinesWordsInFile {
 	public static void main(String[] args) throws IOException
 	{
-		File file = new File("C:/sudeep/POC/zpractice/src/file/file.txt");
+        File file = new File("C:/sudeep/POC/zpractice/src/fileHandling/file.txt");
 		FileInputStream fileStream = new FileInputStream(file);
 		InputStreamReader input = new InputStreamReader(fileStream);
 		BufferedReader reader = new BufferedReader(input);
