@@ -23,6 +23,8 @@ public class Employee {
 		this.price = price;
 	}
 
+	public Employee() {}
+	
 	public Employee(int id2, String firstName2, String lastName2, String gender2, BigDecimal salary2, String dept2, int managerId2, Float price) {
 		super();
 		this.id = id2;
